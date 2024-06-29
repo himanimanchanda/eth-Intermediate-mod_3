@@ -17,11 +17,11 @@ Transfer: Standard ERC20 transfer functionality with a custom wrapper for decima
 
 ## Contract Details
 ### State Variables
-address public owner 
+       address public owner 
 Stores the address of the contract owner.
 
 ### Modifiers
-modifier onlyOwner() 
+       modifier onlyOwner() 
 modifier to restrict access to the administrator
 
 ### Constructor
