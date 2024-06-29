@@ -25,11 +25,11 @@ modifier onlyOwner()
 modifier to restrict access to the administrator
 
 ### Constructor
-constructor(uint256 initialSupply) ERC20("Aarya", "HA")  
-{
-    owner = msg.sender;
-    _mint(owner, initialSupply * 10 ** uint256(decimals()));
-}
+       constructor(uint256 initialSupply) ERC20("Aarya", "HA")  
+       {
+       owner = msg.sender;
+       _mint(owner, initialSupply * 10 ** uint256(decimals()));
+       }
 This constructor is called from openZeppelin repo.
 
 ### Functions
